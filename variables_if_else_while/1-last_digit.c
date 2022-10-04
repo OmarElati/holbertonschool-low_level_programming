@@ -9,7 +9,7 @@
 int main(void)
 {
 int n;
-char last[] = 'Last digit of';
+char last[] = "Last digit of";
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 printf("%s %d is ", last, n);
