@@ -7,7 +7,7 @@
 int main(void)
 {
 char a;
-for (a = 'a'; a <= 'Z'; a++)
+for (a = 'ABCDEFGHKLMNOPQRSTUVWXYZ')
 putchar (a);
 putchar ('\n');
 return (0);
