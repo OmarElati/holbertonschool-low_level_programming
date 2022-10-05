@@ -1,18 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
 *main - Entry point
 *
-*Return always 0
+*Return: Always (success)
 */
 int main(void)
 {
-char ch;
-for (ch = 'a'; ch <= 'Z'; ch++)
-{
-putchar (ch);
+char a;
+for (a = 'a'; a <= 'Z'; a++)
+putchar (a);
 putchar ('\n');
-}
 return (0);
 }
