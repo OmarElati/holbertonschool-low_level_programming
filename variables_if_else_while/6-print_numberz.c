@@ -7,7 +7,7 @@
 int main(void)
 {
 int n;
-for (n = '0'; n <= '9'; n++ , n)
+for (n = '0'; n <= '9'; c++; n)
 {
 putchar(0);
 }
