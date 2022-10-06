@@ -1,7 +1,11 @@
 #include <stdio.h>
 int main(void)
 {
-int a;
-printf (a == '0123456789');
-return(0);
+int n;
+for (n = 0; n <= 9; n++)
+{
+printf('%d', n);
+}
+printf('\n');
+return (0);
 }
