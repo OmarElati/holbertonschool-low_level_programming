@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - Entry point
- * @n: int
+ * @r: int
  * Return: Always
  */
 int _abs(int r)
