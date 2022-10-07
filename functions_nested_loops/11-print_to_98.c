@@ -3,7 +3,7 @@
 /**
 * print_to_98 - Print from 0 to 98
 * @n:int
-* Return: Nothing
+* Return: a number serie
 */
 void print_to_98(int n)
 {
