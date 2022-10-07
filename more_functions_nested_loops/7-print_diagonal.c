@@ -17,7 +17,7 @@ else
 {
 for (a = 0; a < n; a++)
 {
-for (a = 0; o < a; o++)
+for (o = 0; o < a; o++)
 {
 _putchar(32);
 }
