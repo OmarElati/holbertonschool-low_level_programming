@@ -13,9 +13,11 @@ for (n = 0; n <= 9; n++)
 {
 for (m = 0; m <= 14; m++)
 {
-_putchar(m + '0');
+if (m > 9)
+{
+_putchar((m / 10) + '0');
 }
-_putchar(n + '0');
+_putchar((m % 10) + '0');
 }
 _putchar('\n');
 }
