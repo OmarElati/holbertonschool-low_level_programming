@@ -21,7 +21,7 @@ for (o = 0; o < a; o++)
 {
 _putchar(32);
 }
-_putchar(32);
+_putchar(92);
 _putchar('\n');
 }
 }
