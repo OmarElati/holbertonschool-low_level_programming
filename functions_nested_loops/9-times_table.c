@@ -15,7 +15,7 @@ s = i * j;
 if (s > 9)
 {
 d = s % 10;
-p =(s - d) / 10;
+p = (s - d) / 10;
 _putchar(',');
 _putchar(32);
 _putchar(p + '0');
