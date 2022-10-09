@@ -15,7 +15,7 @@ for (c = '0'; c <= '9'; c++)
 {
 for (d = '1'; d <= '9'; d++)
 {
-if ((c + d) > (a + b))
+if (d > b || (a+b) > (c+d))
 {
 putchar(a);
 putchar(b);
