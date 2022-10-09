@@ -13,10 +13,10 @@ for (b = '0'; b <= '9'; b++)
 {
 if (b > a)
 {
-if (a != '8' || (a == '8' && b != 9))
-{
 putchar(a);
 putchar(b);
+if (a != '8')
+{
 putchar(',');
 putchar(' ');
 }
