@@ -3,28 +3,23 @@
 /**
 * rev_string - print string then rev a string
 *
-* @s: string s
+* @s: string
 *
 * return: Empty
 */
+
 void rev_string(char *s)
 {
-int c, b, d;
-char *a, temp;
-a = s;
-while (s[c] != '\0')
+int len = 0, i = 0;
+char tmp;
+while (s[i++])
 {
-c++;
+len++;
 }
-for (b = 1; b < c; b++)
+for ( i = len - 1; i >= len / 2; i--)
 {
-a++;
-}
-for (d = 0; d < (c / 2); d++)
-{
-temp = s[d];
-s[d] = *a;
-*a = temp;
-a--;
+tmp = s[i];
+s[i] = s[len - i - 1];
+s[len - i - 1] = tmp;
 }
 }
