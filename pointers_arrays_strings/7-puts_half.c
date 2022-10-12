@@ -22,7 +22,7 @@ return (n);
 */
 void puts_half(char *str)
 {
-int n;
+int n = 1;
 n = (_strlen(str)) / 2;
 while (n < _strlen(str))
 {
