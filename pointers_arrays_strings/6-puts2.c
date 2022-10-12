@@ -1,8 +1,24 @@
 #include "main.h"
 /**
-* puts2 - writes the string s
+* _strlen - Using the strlen method to calculate the length of the string
 *
-* @str: string s
+* @s: char
+*
+* Return: Empty
+*/
+int _strlen(char *s)
+{
+int  c;
+for (c = 0; *s != '\0'; s++)
+{
+c++;
+}
+return (c);
+}
+/**
+* puts2 - prints every other character of a string
+*
+* @str: string
 *
 * return: Empty
 */
