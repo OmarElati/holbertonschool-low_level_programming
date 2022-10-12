@@ -1,13 +1,13 @@
 #include "main.h"
 /**
 *_strlen - Using the strlen method to calculate the length of the string
-*@str: char
+*@s: char
 *Return: Nthing
 */
-int _strlen(char *str)
+int _strlen(char *s)
 {
 int  n;
-for (n = 0; *str != '\0'; str++)
+for (n = 0; *s != '\0'; s++)
 {
 n++;
 }
