@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _puts - writes the string s
+* puts2 - writes the string s
 *
 * @str: string s
 *
