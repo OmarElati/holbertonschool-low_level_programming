@@ -30,6 +30,7 @@ str[a] -= 'a' - 'A';
 }
 }
 }
+}
 a++;
 }
 return (str);
