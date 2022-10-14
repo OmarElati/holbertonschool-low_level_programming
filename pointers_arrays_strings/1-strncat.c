@@ -16,15 +16,12 @@ int i = 0, len = 0;
 while (dest[i] != 0)
 {
 i++;
-len++;
 }
-if (i < n)
+if ((src[len] != 0) && (len < n))
 {
-for (i = 0; src[i]; i++)
-{
-dest[len] = src[i];
+dest[i] = src[len];
+i++;
 len++;
-}
 }
 return (dest);
 }
