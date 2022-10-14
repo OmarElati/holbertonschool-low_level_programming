@@ -6,7 +6,7 @@
  *
  * @a: array
  * @size: size
- * 
+ *
  * Return: Empty
 */
 
@@ -18,5 +18,5 @@ for (b = 0; b < size; b++)
 x += a[(size + 1) * b];
 y += a[(size - 1) * (b + 1)];
 }
-printf ("%d, %d\n", x, y);
+printf("%d, %d\n", x, y);
 }
