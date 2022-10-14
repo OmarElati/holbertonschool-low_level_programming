@@ -3,9 +3,8 @@
 /**
  * _strchr - function that locates a character in a string
  *
- * @dest: destination of copy
  * @s: string
- * @c: character 
+ * @c: character
  *
  * Return: s or NULL
 */
