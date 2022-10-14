@@ -25,5 +25,6 @@ if (!accept[b])
 {
 break;
 }
+}
 return (a);
 }
