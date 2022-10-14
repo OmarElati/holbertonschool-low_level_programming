@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
-* cap_string - function capitalizes all words of a string
+* leet - function that encodes a string into 1337
 *
 * @str: string
 *
-* Return: void
+* Return: adress of string
 */
 
-char *cap_string(char *str)
+char *leet(char *)
 {
 int a, b;
 char c[] = "aAeEoOtTlL";
