@@ -24,7 +24,7 @@ else
 {
 for (b = 0; b <= 12; b++)
 {
-if (c[b] == str[a - 1])
+if (c[b] == *(str + a - 1))
 {
 str[a] -= 'a' - 'A';
 }
