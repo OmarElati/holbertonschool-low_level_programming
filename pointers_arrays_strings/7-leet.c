@@ -8,7 +8,7 @@
 * Return: adress of string
 */
 
-char *leet(char *)
+char *leet(char *str)
 {
 int a, b;
 char c[] = "aAeEoOtTlL";
