@@ -11,24 +11,29 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-int a;
-if (*needle == 0)
+unsigned int a = 0, b = 0;
+while (haystack[a])
 {
-return (haystack);
+while ((haystack[a] == needle[0]) && needle[b])
+{
+if (haystack[a + b] == needle[b])
+{
+b++;
 }
-while (*haystack)
+else
 {
-if (haystack[a] == needle[a])
-{
-do {
-if (needle[a + 1] == '\0')
-{
-return (haystack);
+break;
 }
+}
+if (needle[b])
+{
 a++;
-} while (haystack[a] == needle[a]);
+b = 0;
 }
-haystack++;
+else
+{
+return (haystack + a);
+}
 }
 return ('\0');
 }
