@@ -20,10 +20,10 @@ if (s[a] == accept[b])
 {
 break;
 }
+}
 if (accept[b])
 {
 return (s + a);
-}
 }
 }
 return (0);
