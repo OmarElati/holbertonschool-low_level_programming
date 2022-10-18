@@ -5,8 +5,8 @@
 * _print_rev_recursion - Function to print reverse of the passed string
 *
 * @s: string
-* 
-* return: Empty  
+*
+* return: Empty
 */
 void _print_rev_recursion(char *s)
 {
