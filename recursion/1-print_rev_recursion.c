@@ -10,11 +10,16 @@
 */
 void _print_rev_recursion(char *s)
 {
-int h;
-if (s[h] == '\0')
+int len = 0, i = 0;
+char tmp;
+
+while (s[i++])
 {
-return;
+len++;
 }
-reverse(s, h + 1);
-printf("%c", s[h]);
+for (i = len - 1; i >= len / 2; i--)
+{
+tmp = s[i];
+s[i] = s[len - i - 1];
+s[len - i - 1] = tmp;
 }
