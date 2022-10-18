@@ -12,6 +12,6 @@ void _print_rev_recursion(char *s)
 if (*s)
 {
 reverse(s + 1);
-_putchar("%c, *s");
+_putchar("%s");
 }
 }
