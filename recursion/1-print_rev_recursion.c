@@ -18,5 +18,5 @@ return;
 }
 temp = s[index];
 reverse(s, index+1, n);
-printf("%c", temp);
+printf("%s\n", temp);
 }
