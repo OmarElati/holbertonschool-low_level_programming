@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
+* _print_rev_recursion - rev string
 *
+* @s: string
 * 
-* 
-* 
+* return: Empty  
 */
 void _print_rev_recursion(char *s)
 {
