@@ -3,22 +3,22 @@
 /**
  * _sqrt - Function returns the natural square root of a number.
  *
- * @num: input
+ * @n: input
  * @root: the root to be tested
  *
  * Return: -1 OR n.
  */
-int _sqrt(int num, int root)
+int _sqrt(int n, int root)
 {
-	if ((root * root) == num)
+	if ((root * root) == n)
 	{
 		return (root);
 	}
-	if (root == num / 2)
+	if (root == n / 2)
 	{
 		return (-1);
 	}
-	return (_sqrt(num, root + 1));
+	return (_sqrt(n, root + 1));
 }
 
 
