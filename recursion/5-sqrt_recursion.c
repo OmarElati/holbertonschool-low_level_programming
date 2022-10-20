@@ -2,12 +2,11 @@
 
 /**
  * _sqrt - Function returns the natural square root of a number.
- * 
+ *
  * @num: input
  * @root: the root to be tested
- * 
- * Return: If n does not have a natural square root, the function should return -1.
- *         If n has a natural square root of n.         
+ *
+ * Return: -1 OR n.
  */
 int _sqrt(int num, int root)
 {
@@ -41,7 +40,7 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-    
+
 	if (n == 1)
 	{
 		return (1);
