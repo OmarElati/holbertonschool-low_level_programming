@@ -2,10 +2,10 @@
 
 /**
  * check_prime - Function return 1 si num is prime
- * 
+ *
+ * @n: int
  * @x: int
- * @y: int
- * 
+ *
  * Return: 1 for prime OR 0 for comp
 */
 
@@ -25,9 +25,9 @@ int check_prime(int n, int x)
 
 /**
  * is_prime_number - retuen if number is prime
- * 
- * @n: int 
- * 
+ *
+ * @n: int
+ *
  * Return: output
 */
 int is_prime_number(int n)
