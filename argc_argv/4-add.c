@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	{
         for (y = 0; argv[m][y]; y++)
         {
-            while (isdigit(argv[n][m]) == 0)
+            if (isdigit(argv[n][m]) == 0)
             {
                 puts("Error");
                 return (1);
