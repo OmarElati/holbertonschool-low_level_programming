@@ -12,14 +12,14 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *str;
-	int index, len = 0, a = 0;
+	int index = 0, len = 0, a = 0;
 
-	if (!s1)
+	if (s1 == NULL)
 	{
 		s1 = "";
 	}
 
-	if (s2)
+	if (s2 == NULL)
 	{
 		s2 = "";
 	}
@@ -41,9 +41,9 @@ char *str_concat(char *s1, char *s2)
 		str[a++] = s1[index];
 	}
 
-	for (index = 0; s2[index]; index++)
+	for (index = (s1[index] + 1); s2[index]; index++)
 	{
-		str[a++] = s1[index];
+		str[a++] = s2[index];
 	}
 
 	return (str);
