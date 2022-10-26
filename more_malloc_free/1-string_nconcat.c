@@ -18,32 +18,28 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		s1 = "";
 	}
-
 	if (s2 == NULL)
 	{
 		s2 = "";
 	}
-
-	for (lens1 = 0; s1[lens1] != '\0'; ++lens1);
-	for (lens2 = 0; s2[lens2] != '\0'; ++lens2);
-	
-	if (n >= lens2) {
+	for (lens1 = 0; s1[lens1] != '\0'; ++lens1)
+	;
+	for (lens2 = 0; s2[lens2] != '\0'; ++lens2)
+	;
+	if (n >= lens2)
+	{
 		n = lens2;
 	}
-
 	ptr = malloc(sizeof(char) * (lens1 + n + 1));
-
 	if (ptr == NULL)
 	{
 		return (NULL);
 	}
-
 	for (index = 0; index < lens1; index++)
 	{
 		ptr[index] = s1[index];
 	}
-
-	for (index =lens1; index < n + lens1; index++)
+	for (index = lens1; index < n + lens1; index++)
 	{
 		ptr[index] = s2[index - lens1];
 	}
