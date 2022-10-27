@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "1-pi.h"
 
 /**
  * main -check the code
@@ -9,6 +8,7 @@
 
 int main(void)
 {
-	printf("%s\n", HEADER_FILE);
+	printf("%s\n", __NAME__);
+
 	return (0);
 }
