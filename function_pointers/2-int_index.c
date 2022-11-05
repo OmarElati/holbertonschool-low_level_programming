@@ -12,22 +12,22 @@
 */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-    int idx = 0, x;
+	int idx = 0, x;
 
-    if (size <= 0)
-    {
-        return (-1);
-    }
-    if (cmp != NULL && array != 0)
-    {
-        for (idx = 0; idx < size; idx++)
-        {
-            x = cmp(array[idx]);
-            if (x != 0)
-            {
-                return (idx);
-            }
-        }
-    }
-    return (-1);
+	if (size <= 0)
+	{
+		return (-1);
+	}
+	if (cmp != NULL && array != 0)
+	{
+		for (idx = 0; idx < size; idx++)
+		{
+			x = cmp(array[idx]);
+			if (x != 0)
+			{
+				return (idx);
+			}
+		}
+	}
+	return (-1);
 }
