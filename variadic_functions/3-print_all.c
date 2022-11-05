@@ -49,7 +49,7 @@ void print_all(const char * const format, ...)
 }
 
 /**
- * _print_c - fills memory with a constant byte
+ * _print_ch - function that print char
  * @a: is string
  * Return: nothing
 */
@@ -60,18 +60,18 @@ void _print_ch(va_list a)
 }
 
 /**
- * _print_i - fills memory with a constant byte
+ * _print_in - function that print int
  * @a: is string
  * Return: nothing
 */
 
 void _print_in(va_list a)
 {
-	printf ("%d", va_arg(a, int));
+	printf("%d", va_arg(a, int));
 }
 
 /**
- * _print_f - fills memory with a constant byte
+ * _print_fl - function that print flaot
  * @a: is string
  * Return: nothing
 */
@@ -82,7 +82,7 @@ void _print_fl(va_list a)
 }
 
 /**
- * _print_st - fills memory with a constant byte
+ * _print_st - function that print intger
  * @a: is string
  * Return: nothing
 */
@@ -90,6 +90,7 @@ void _print_fl(va_list a)
 void _print_st(va_list a)
 {
 	char *x = va_arg(a, char *);
+
 	if (x == NULL)
 	{
 		printf("(nil)");
