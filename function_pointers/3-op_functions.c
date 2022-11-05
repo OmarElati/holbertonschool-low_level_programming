@@ -3,71 +3,71 @@
 #include <stdio.h>
 
 /**
- * op_add - ..
- * @a: ..
- * @b: ..
- * Return: ..
+ * op_add - function add tow int
+ * @a: int
+ * @b: int
+ * Return: sum
 */
 
 int op_add(int a, int b)
 {
-    return (a + b);
+	return (a + b);
 }
 
 /**
- * op_add - ..
- * @a: ..
- * @b: ..
- * Return: ..
+ * op_sub - function that subtraction tow int
+ * @a: int
+ * @b: int
+ * Return: difference
 */
 
 int op_sub(int a, int b)
 {
-    return (a - b);
+	return (a - b);
 }
 
 /**
- * op_add - ..
- * @a: ..
- * @b: ..
- * Return: ..
+ * op_mul - function operation milti
+ * @a: int
+ * @b: int
+ * Return: product
 */
 
 int op_mul(int a, int b)
 {
-    return (a * b);
+	return (a * b);
 }
 
 /**
- * op_add - ..
- * @a: ..
- * @b: ..
- * Return: ..
+ * op_div - function opperation division
+ * @a: int
+ * @b: int
+ * Return: result of division
 */
 
 int op_div(int a, int b)
 {
-    if (b == 0)
-    {
-        printf("Error\n");
-        exit(100);
-    }
-    return (a / b);
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	return (a / b);
 }
 
 /**
- * op_add - ..
- * @a: ..
- * @b: ..
- * Return: ..
+ * op_mod - function make the remainder of the division
+ * @a: int
+ * @b: int
+ * Return: the remainder of the division
 */
 
 int op_mod(int a, int b)
 {
-    if (b == 0)
-    {
-        printf("Error\n");
-        exit(100);
-    }
-    return (a % b);
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	return (a % b);
 }
