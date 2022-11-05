@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * print_name - function that print name 
+ * print_name - function that print name
  *
  * @name: name inputted
  * @f: function pointer
@@ -11,8 +11,8 @@
 */
 void print_name(char *name, void (*f)(char *))
 {
-    if (f != NULL)
-    {
-        f(name);
-    }
+	if (f != NULL)
+	{
+		f(name);
+	}
 }
