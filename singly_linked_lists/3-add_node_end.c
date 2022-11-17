@@ -8,10 +8,10 @@
 */
 list_t *add_node_end(list_t **head, const char *str)
 {
-    int i;
+	int i;
 	char *new_str = strdup(str);
 	list_t *new_head = NULL;
-    list_t *last = *head;
+	list_t *last = *head;
 
 	if (!new_str)
 	{
@@ -30,15 +30,15 @@ list_t *add_node_end(list_t **head, const char *str)
 	new_head->str = new_str;
 	new_head->len = i;
 	new_head->next = NULL;
-    if (*head == NULL)
-    {
-        *head = new_head;
-        return (new_head);
-    }
-    while (last->next)
-    {
-        last = last->next;
-    }
+	if (*head == NULL)
+	{
+		*head = new_head;
+		return (new_head);
+	}
+	while (last->next)
+	{
+		last = last->next;
+	}
 	last->next = new_head;
 	return (new_head);
 }
