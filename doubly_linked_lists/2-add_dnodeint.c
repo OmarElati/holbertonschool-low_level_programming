@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint - Function that adds a new node at the beginning of a list
+ * add_dnodeint - function that adds a new node at the beginning of list
  * @head: pointer to pointer of linked list
  * @n: constant int
  * Return:  the address of the new element, or NULL if it failed
