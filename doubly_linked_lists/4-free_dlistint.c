@@ -11,7 +11,7 @@ void free_dlistint(dlistint_t *head)
 	while (head != NULL)
 	{
 		tmp_node = head;
-		tmp_node = tmp_node->next;
+		head = head->next;
 		free(tmp_node);
 	}
 }
