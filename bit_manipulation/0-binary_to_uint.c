@@ -3,7 +3,7 @@
 /**
  * _pow - get power of number
  * @x: unsigned integer
- * @b: unsigned integer
+ * @y: unsigned integer
  * Return: unsigned integer
 */
 unsigned int _pow(unsigned int x, unsigned int y)
