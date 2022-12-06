@@ -27,12 +27,12 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 	while (b[len] != '\0')
 			len++;
-	for (i = len -1; i >= 0; i--)
+	for (i = len - 1; i >= 0; i--)
 	{
-		if(b[i] != '1' && b[i]!= '0')
+		if (b[i] != '1' && b[i] != '0')
 			return (0);
 		if (b[i] == '1')
-			n += _pow(2, len - 1 -i);
+			n += _pow(2, len - 1 - i);
 	}
 
 	return (n);
