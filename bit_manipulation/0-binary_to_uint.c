@@ -9,7 +9,7 @@
 unsigned int _pow(unsigned int x, unsigned int y)
 {
 	if (y == 0)
-		return;
+		return (1);
 	return (x * _pow(x, y - 1));
 }
 
