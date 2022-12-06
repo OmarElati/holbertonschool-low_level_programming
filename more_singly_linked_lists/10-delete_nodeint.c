@@ -3,7 +3,7 @@
 /**
  * delete_nodeint_at_index - function delete the node index of linked list
  * @head: pointer of pointer of linked list
- * @index:
+ * @index: index of node
  * Return: 1 if it succeeded OR -1 if it failed
 */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
@@ -17,18 +17,19 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	}
     d_node = *head;
 
-	if (idx == 0)
+	if (index == 0)
 	{
 		d_node->next = *head;
+        free (d_node);
 		return (1);
 	}
-	while (x < (idx - 1) && tmp_node->next != NULL)
+	while (x < index && d_node->next != NULL)
 	{
         tmp_node = d_node
 		d_node = d_node->next;
 		x++;
 	}
-	if (x < idx - 1)
+	if (x < index)
 	{
 		return (-1);
 	}
