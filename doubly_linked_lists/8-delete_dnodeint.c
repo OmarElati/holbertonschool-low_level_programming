@@ -1,6 +1,23 @@
 #include "lists.h"
 
 /**
+ * delete_node - Delete a node
+ * @node: node to node
+ * Return: empty
+*/
+void delete_node(dlistint_t *node)
+{
+	if (node->next != NULL)
+	{
+		node->next->prev = node ->prev;
+	}
+	if (node->prev != NULL)
+	{
+		node->prev->next = node->next;
+	}
+	free(node);
+}
+/**
  * delete_dnodeint_at_index - Function deletes the node at index of linked list
  * @head: pointer of pointer of head
  * @index: index of linked list
@@ -8,25 +25,33 @@
 */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-	dlistint_t *d_node, *tmp_node;
+	dlistint_t *tmp_node;
 	unsigned int x = 0;
 
 	if (*head == NULL)
 	{
 		return (-1);
 	}
-	d_node = *head;
+	tmp_node = *head;
 
 	if (index == 0)
 	{
-		*head = d_node->next;
-		free(d_node);
+		tmp_node = tmp_node->next;
+		delete_node(*head);
+		*head = heaad
 		return (1);
 	}
-	while (x < index && d_node->next != NULL)
+	while (1)
 	{
-		tmp_node = d_node;
-		d_node = d_node->next;
+		if (tmp_node == NULL)
+		{
+			return (-1);
+		}
+		if (i == index)
+		{
+			break;
+		}
+		tmp_node = tmp_node->next;
 		x++;
 	}
 	if (x < index)
@@ -34,6 +59,6 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		return (-1);
 	}
 	tmp_node->next = d_node->next;
-	free(d_node);
+	delete_node(d_node);
 	return (1);
 }
