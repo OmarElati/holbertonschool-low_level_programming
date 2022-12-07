@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * ste_bit - set 1 bit by index 
+ * set_bit - set 1 bit by index
  * @n: adress of integer
  * @index: unsigned integer
  * Return: 1 OR -1
