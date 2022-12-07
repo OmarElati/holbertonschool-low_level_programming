@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * 
- * 
- * 
+ * create_new_node - create a node
+ * @n: int
+ * Return: empty
 */
 dlistint_t create_new_node()
 {
