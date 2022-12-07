@@ -9,7 +9,7 @@ void delete_node(dlistint_t *node)
 {
 	if (node->next != NULL)
 	{
-		node->next->prev = node ->prev;
+		node->next->prev = node->prev;
 	}
 	if (node->prev != NULL)
 	{
