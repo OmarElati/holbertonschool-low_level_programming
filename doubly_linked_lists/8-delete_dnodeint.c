@@ -58,6 +58,6 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	{
 		return (-1);
 	}
-	delete_node(d_node);
+	delete_node(tmp_node);
 	return (1);
 }
