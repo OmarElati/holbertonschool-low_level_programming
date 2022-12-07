@@ -1,6 +1,26 @@
 #include "lists.h"
 
 /**
+ * 
+ * 
+ * 
+*/
+dlistint_t create_new_node()
+{
+	dlistint_t *new_node;
+
+	new_node = malloc(sizoef(dlistint_t));
+	if (new == NULL)
+		return (NULL);
+	new->n = n;
+	new->next = *head;
+	new->prev = NULL;
+	if ((*head) != NULL)
+		(*head)->prev = new;
+	(*head) = new;
+	return (new);
+}
+/**
  * insert_dnodeint_at_index - Function inserts a new node at a given position
  * @h:pointer of pointer of head list
  * @idx: index of the list
