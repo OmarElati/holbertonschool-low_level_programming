@@ -38,7 +38,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	{
 		tmp_node = tmp_node->next;
 		delete_node(*head);
-		*head = heaad
+		*head = head;
 		return (1);
 	}
 	while (1)
