@@ -11,8 +11,8 @@ welcome to my low level C programming experience at Holberthon School. Here I Wi
 
 ## Task Overview
 
-|| Goals | Outcome |
-| :---: | :---: | :---: |
+|     | Goals |
+| :---: | :---: |
 | hello_world |``` Learn to use printf & puts ```|
 | Variable_if_Else_While | ``` Learn about control statements loops, and variables ```| 
 | functions_nested_loops | ``` Learn functions and nested loops ```|
