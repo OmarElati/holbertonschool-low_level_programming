@@ -1,6 +1,7 @@
 # holberton school c
 
 ## Low Level Programming & Algorithms
+
 welcome to my low level C programming experience at Holberthon School. Here I Will be documenting what i have  learning througs a series of projects Holberthon is a project based learning environment
 
 ## Goals
@@ -15,7 +16,7 @@ welcome to my low level C programming experience at Holberthon School. Here I Wi
 |     | Goals |
 | :---: | :---: |
 | hello_world |``` Learn to use printf & puts ```|
-| Variable_if_Else_While | ``` Learn about control statements loops, and variables ```| 
+| Variable_if_Else_While | ``` Learn about control statements loops, and variables ```|
 | functions_nested_loops | ``` Learn functions and nested loops ```|
 | makefiles | ``` Learn what are makefiles, when, why, and how to use them (with variables, explicit and implicit rules) ``` |
 | more_functions_nested_loops | ``` Learn more about functions and nested loops ``` |
