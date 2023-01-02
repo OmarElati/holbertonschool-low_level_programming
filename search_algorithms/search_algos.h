@@ -1,5 +1,7 @@
-#ifndef C58926C3_42E2_4097_BF0E_0E14E996233C
-#define C58926C3_42E2_4097_BF0E_0E14E996233C
+#ifndef SEARCH_ALGOS_H
+#define SEARCH_ALGOS_H
 
+/* prototypes */
+int linear_search(int *array, size_t size, int value);
 
-#endif /* C58926C3_42E2_4097_BF0E_0E14E996233C */
+#endif /* SEARCH_ALGOS_H */
